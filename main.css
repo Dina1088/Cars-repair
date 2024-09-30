@@ -1,0 +1,74 @@
+.body{
+    background-color: black;
+}
+.nav {
+    background-color: rgba(60, 27, 247, 0);
+    color: white;
+    font-size: 20px;
+}
+span{
+    letter-spacing: 5px;
+}
+i{
+    background-color: rgb(35, 35, 228);
+    padding: 5px;
+    border-radius: 10px;
+}
+li{
+    color: white;
+}
+.home .container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    width: 100%;
+ 
+}
+@media(max-width:993px){
+    .about{
+        width: 150%;
+    }
+
+}
+@media(max-width:344px){
+    .about{
+        width: 150%;
+    }
+
+}
+@media(max-width:1024px){
+    .about{
+        width: 150%;
+    }
+
+}
+@media(max-width:1280px){
+    .about{
+        width: 150%;
+    }
+
+}
+.image{
+    background-image: url(images/mechanic-hand-checking-fixing-broken-car-car-service-garage_146671-19717.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+@media(max-width:1024px){
+    .image{
+        width: 150%;
+    }
+    .footer{
+        width: 150%;
+    }
+    .cars{
+        width: 150%;
+    }
+
+}
+
